@@ -1,3 +1,12 @@
 <resources>
+    <string-array name="cities">
+        <item>Moscow</item>
+        <item>Saint Petersburg</item>
+        <item>Yoshkar-Ola</item>
+    </string-array>
     <string name="app_name">WeatherForecast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temperature">Temperature: %s \u2103</string>
+    <string name="fells_like">Fells like: %s \u2103</string>
 </resources>

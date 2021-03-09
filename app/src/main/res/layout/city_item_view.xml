@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/city_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="Moscow" />
+
+    <TextView
+        android:id="@+id/forecast_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="12:03:23" />
+
+    <TextView
+        android:id="@+id/forecast_temperature_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/temperature"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="-3" />
+
+    <TextView
+        android:id="@+id/temperature_feels_like_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/fells_like"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="-12" />
+
+    <TextView
+        android:id="@+id/weather_status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="Clear" />
+
+    <ImageView
+        android:id="@+id/weather_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>
